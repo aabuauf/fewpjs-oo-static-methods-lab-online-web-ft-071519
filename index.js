@@ -9,6 +9,7 @@ class Formatter {
      }
      
     static titleize   (name) {
-       return name.replace(/[^A-Za-z0-9-']+/g, '');
+      let words = name.split(" ")
+       
      }
 }
