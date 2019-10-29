@@ -15,5 +15,6 @@ class Formatter {
           words[i]= capitalize (words[i])
          }
        }
+       return words.join(" ")
      }
 }
