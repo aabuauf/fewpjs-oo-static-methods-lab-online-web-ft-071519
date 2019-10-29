@@ -11,7 +11,7 @@ class Formatter {
     static titleize   (name) {
       let words = name.split(" ")
        for (let i = 0; i<words.length; i++){
-         if (words[i]!== "a" ||words[i]!== "an" || words[i]!== "but" || words[i]!== "of" ||words[i]!== "and" ||words[i]!== "for" ||words[i]!== "at" ||words[i]!== "by" ||words[i]!== "from"||words[i]!== "the"){
+         if (words[i]!== "a" ||words[i]!== "an" || words[i]!== "but" || words[i]!== "of" ||words[i]!== "and" ||words[i]!== "for" ||words[i]!== "at" ||words[i]!== "by" ||words[i]!== "from"||words[i]!== "the" ||words[i]!== "Of"){
           words[i]= this.capitalize (words[i])
          }
        }
