@@ -4,7 +4,7 @@ class Formatter {
         name.charAt(0).toUpperCase() + name.slice(1);
      }
      
-          static capitalize (name) {
+          static sanitize  (name) {
         name.charAt(0).toUpperCase() + name.slice(1);
      }
 }
