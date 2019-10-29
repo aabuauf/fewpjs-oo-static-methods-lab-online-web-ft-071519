@@ -5,6 +5,10 @@ class Formatter {
      }
      
           static sanitize  (name) {
-        name.charAt(0).toUpperCase() + name.slice(1);
+       return name.replace(/[^A-Za-z0-9-']+/g, '');
+     }
+     
+    static sanitize  (name) {
+       return name.replace(/[^A-Za-z0-9-']+/g, '');
      }
 }
